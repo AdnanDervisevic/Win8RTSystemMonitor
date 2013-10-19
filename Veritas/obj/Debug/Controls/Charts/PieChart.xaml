@@ -1,0 +1,77 @@
+﻿<UserControl
+    x:Class="Veritas.Controls.Charts.PieChart"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Veritas.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    xmlns:charting="using:WinRTXamlToolkit.Controls.DataVisualization.Charting"
+    xmlns:Series="using:WinRTXamlToolkit.Controls.DataVisualization.Charting"
+    xmlns:datavis="using:WinRTXamlToolkit.Controls.DataVisualization"
+    
+    mc:Ignorable="d" Width="300" Height="300">
+    
+    <Grid>
+        <charting:Chart x:Name="pieChart">
+            <charting:Chart.Palette>
+                <charting:ResourceDictionaryCollection>
+                    <!-- Gold -->
+                    <ResourceDictionary>
+                        <SolidColorBrush x:Key="Background" Color="AntiqueWhite" />
+                        <Style x:Key="DataPointStyle" TargetType="Control">
+                            <Setter Property="Background" Value="{StaticResource Background}" />
+                        </Style>
+                        <Style x:Key="DataShapeStyle" TargetType="Shape">
+                            <Setter Property="Stroke" Value="{StaticResource Background}" />
+                            <Setter Property="StrokeThickness" Value="10" />
+                            <Setter Property="StrokeMiterLimit" Value="1" />
+                            <Setter Property="Fill" Value="{StaticResource Background}" />
+                        </Style>
+                    </ResourceDictionary>
+                    <!-- Green -->
+                    <ResourceDictionary>
+                        <SolidColorBrush x:Key="Background" Color="DarkSlateBlue" />
+                        <Style
+                                x:Key="DataPointStyle"
+                                TargetType="Control">
+                            <Setter
+                                    Property="Background"
+                                    Value="{StaticResource Background}" />
+                        </Style>
+                        <Style
+                                x:Key="DataShapeStyle"
+                                TargetType="Shape">
+                            <Setter
+                                    Property="Stroke"
+                                    Value="{StaticResource Background}" />
+                            <Setter
+                                    Property="StrokeThickness"
+                                    Value="2" />
+                            <Setter
+                                    Property="StrokeMiterLimit"
+                                    Value="1" />
+                            <Setter
+                                    Property="Fill"
+                                    Value="{StaticResource Background}" />
+                        </Style>
+                    </ResourceDictionary>
+                </charting:ResourceDictionaryCollection>
+            </charting:Chart.Palette>
+            <charting:Chart.TitleStyle>
+                <Style TargetType="datavis:Title">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="datavis:Title" />
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </charting:Chart.TitleStyle>
+            <charting:Chart.Series>
+                <Series:PieSeries ItemsSource="{Binding Items}" IndependentValueBinding="{Binding Name}" DependentValueBinding="{Binding Value}" IsSelectionEnabled="False" TransitionDuration="0"  />
+            </charting:Chart.Series>
+        </charting:Chart>
+        <TextBlock x:Name="titleLbl" Margin="10,10,10,0" TextWrapping="Wrap" Text="HDD Usage: 100%" FontSize="24" Width="{Binding RelativeSource={RelativeSource Mode=TemplatedParent}}" Height="30" VerticalAlignment="Top" TextAlignment="left" />
+    </Grid>
+</UserControl>
+

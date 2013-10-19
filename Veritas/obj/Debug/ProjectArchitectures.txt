@@ -1,0 +1,5 @@
+C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Veritas.csproj;neutral
+C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTDatePicker\WinRTDatePicker.csproj;neutral
+C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.csproj;neutral
+C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\WinRTXamlToolkit.csproj;neutral
+C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\WinRTXamlToolkit.csproj;neutral

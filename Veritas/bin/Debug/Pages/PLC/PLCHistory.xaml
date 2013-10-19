@@ -1,0 +1,40 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Veritas.Pages.PLC"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:Charts="using:Veritas.Controls.Charts"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="using:Veritas.Controls"
+    x:Class="Veritas.Pages.PLC.PLCHistory"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+
+        <Controls:HeaderControl x:Name="headerControl" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+
+        <Charts:LineChart x:Name="tempChart" Margin="261,164,705,304">
+            <Charts:LineChart.RenderTransform>
+                <CompositeTransform ScaleX="2" ScaleY="2"/>
+            </Charts:LineChart.RenderTransform>
+        </Charts:LineChart>
+
+        <TextBlock HorizontalAlignment="Left" Margin="575,95,0,0" TextWrapping="Wrap" Text="History" VerticalAlignment="Top" Height="62" Width="161" FontSize="45"/>
+        <TextBlock HorizontalAlignment="Left" Margin="890,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="114" Width="463" FontSize="48">
+        	<Run Foreground="#FFA2FF00" Text="30"/>
+        	<Run x:Name="updatesText" Foreground="#FF939393" Text="updates from"/>
+            <LineBreak/>
+            <Run x:Name="selectedDate" Foreground="DodgerBlue" Text="2013-05-30 16:24" />
+        </TextBlock>
+        <Button x:ConnectionId='1' x:Name="calender" HorizontalAlignment="Left" Margin="1293,76,0,0" VerticalAlignment="Top" Height="48" Width="48"                       >
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="ms-appx:///Assets/Calendar.ico" />
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Controls:Calendar x:Name="calenderControl" HorizontalAlignment="Left" Margin="1006,129,0,0" VerticalAlignment="Top" Visibility="Collapsed"/>
+
+    </Grid>
+</Page>
+

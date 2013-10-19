@@ -1,0 +1,17 @@
+﻿<UserControl
+    x:Class="Veritas.Controls.NodeControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Veritas.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="245.125" Width="292.167">
+
+    <Grid x:ConnectionId='1'                       >
+        <Image x:Name="nodeImage" HorizontalAlignment="Left" Height="243" Margin="0,2,-4,-4" VerticalAlignment="Top" Width="292" Canvas.ZIndex="0" Source="ms-appx:///Assets/off.png"/>
+        <TextBlock x:Name="nodeServerName" HorizontalAlignment="Left" Margin="24,159,0,0" TextWrapping="Wrap" Text="Servernamn" VerticalAlignment="Top" Canvas.ZIndex="2" Width="268" Height="54" FontFamily="Global User Interface" FontSize="34"/>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="90" Margin="0,155,-4,-4" VerticalAlignment="Top" Width="292" Opacity="0.6" Canvas.ZIndex="1"/>
+        <TextBlock x:Name="nodeServerStatus" HorizontalAlignment="Left" Margin="10,218,0,0" TextWrapping="Wrap" Text="Server Status: Online" VerticalAlignment="Top" Canvas.ZIndex="2" Width="235" Height="16" FontSize="16" Opacity="0.8" Foreground="#FFD8D8D8"/>
+    </Grid>
+</UserControl>
+

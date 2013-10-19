@@ -1,0 +1,39 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Veritas.Pages.London"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="using:Veritas.Controls"
+    xmlns:Charts="using:Veritas.Controls.Charts"
+    x:Class="Veritas.Pages.London.LondonServer"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+
+        <Controls:HeaderControl x:Name="headerControl" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Controls:CpuStaple x:Name="cpuControl" HorizontalAlignment="Left" Margin="52,199,0,0" VerticalAlignment="Top" Height="474" Width="161" RenderTransformOrigin="0.5,0.5" />
+        <TextBlock HorizontalAlignment="Left" Margin="54,673,0,0" TextWrapping="Wrap" Text="CPU Load" VerticalAlignment="Top" FontSize="36" RenderTransformOrigin="0.468,0.462"/>
+        <Controls:UptimeControl x:Name="uptimeControl" HorizontalAlignment="Left" Margin="356,90,0,0" VerticalAlignment="Top"/>
+
+        <Charts:PieChart x:Name="hddControl" HorizontalAlignment="Left" Margin="356,485,0,-17" VerticalAlignment="Top" Height="300"/>
+        <Charts:PieChart x:Name="memControl" HorizontalAlignment="Left" Margin="356,180,0,0" VerticalAlignment="Top"/>
+        <Controls:NetworkInfo x:Name="networkControl" HorizontalAlignment="Left" Margin="823,212,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="482">
+            <Controls:NetworkInfo.RenderTransform>
+                <CompositeTransform ScaleX="1.2" ScaleY="1.2"/>
+            </Controls:NetworkInfo.RenderTransform>
+        </Controls:NetworkInfo>
+
+        <TextBlock HorizontalAlignment="Left" Margin="819,716,0,0" TextAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Global User Interface" Width="518">
+            <Run Foreground="#FFE6D73E" FontSize="35" Text="Weather:" />
+            <Run x:Name="weatherTempLbl" Text="20°C" FontSize="30" />
+            <Run x:Name="weatherLbl" Text="Sunny" FontSize="30" Foreground="#FF856AFF" />
+        </TextBlock>
+
+        <TextBlock HorizontalAlignment="Left" Margin="896,458,0,0" TextWrapping="Wrap" Text="Swap Memory" VerticalAlignment="Top" FontSize="48" FontFamily="Global User Interface"/>
+        <TextBlock HorizontalAlignment="Left" Margin="962,531,0,0" TextWrapping="Wrap" Text="Free:" VerticalAlignment="Top" FontSize="48" FontFamily="Global User Interface"/>
+        <TextBlock x:Name="swapMemoryLbl" HorizontalAlignment="Left" Margin="1067,516,0,0" TextWrapping="Wrap" Text="160156" VerticalAlignment="Top" FontSize="72" Foreground="#FFFF5656"/>
+        <TextBlock x:Name="lastUpdate" HorizontalAlignment="Left" Margin="819,10,0,0" TextWrapping="Wrap" Text="Last Update: 2013-05-24 10:00:00" VerticalAlignment="Top" FontSize="36"/>
+ 
+    </Grid>
+</Page>

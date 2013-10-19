@@ -1,0 +1,24 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Veritas"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="using:Veritas.Controls"
+    x:Class="Veritas.MainPage"
+    mc:Ignorable="d"
+    >
+
+    <Canvas Background="#FF111111" Tapped="Canvas_Tapped">
+
+        <Image HorizontalAlignment="Left" Height="260" Margin="1057,-36,-77,0" VerticalAlignment="Top" Width="386" Canvas.Left="77" Source="Assets/SplashScreen.png" Stretch="UniformToFill" Opacity="0.6"/>
+        
+        
+        <Controls:NodeControl x:Name="londonNode" HorizontalAlignment="Left" Margin="244,104,0,0" VerticalAlignment="Top"/>
+        <Controls:NodeControl x:Name="PLCNode" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="799" Canvas.Top="455"/>
+        <Controls:NodeControl x:Name="thnRNode" HorizontalAlignment="Left" Margin="244,455,0,0" VerticalAlignment="Top"/>
+        <Controls:NodeControl x:Name="thnNode" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="799" Canvas.Top="104"/>
+
+        <Controls:MapsControl x:Name="mapsControl" HorizontalAlignment="Left" Canvas.Left="536" Canvas.Top="349" VerticalAlignment="Top" Width="263" Height="106" Tapped="mapsControl_Tapped" />
+    </Canvas>
+</Page>

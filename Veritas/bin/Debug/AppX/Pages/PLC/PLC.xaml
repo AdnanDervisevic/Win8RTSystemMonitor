@@ -1,0 +1,33 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Veritas.Pages.PLC"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="using:Veritas.Controls"
+    xmlns:Charts="using:Veritas.Controls.Charts"
+    x:Class="Veritas.Pages.PLC.PLC"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+
+        <Controls:HeaderControl x:Name="headerControl" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+
+        <TextBlock x:Name="lastUpdate" HorizontalAlignment="Left" Margin="819,10,0,0" TextWrapping="Wrap" Text="Last Update: 2013-05-24 10:00:00" VerticalAlignment="Top" FontSize="36"/>
+        <TextBlock x:Name="larmOff" HorizontalAlignment="Left" Margin="39,193,0,0" TextWrapping="Wrap" Text="Larmet är inte igång." VerticalAlignment="Top" Height="59" Width="438" Foreground="#FF38FF65" FontSize="48" Visibility="Collapsed"/>
+        <TextBlock x:Name="larmOn" HorizontalAlignment="Left" Margin="249,295,0,0" TextWrapping="Wrap" Text="Larmet har gått!" VerticalAlignment="Top" Height="167" Width="978" Foreground="#FFFD293C" FontSize="135" Visibility="Collapsed"/>
+        <Controls:tempController x:Name="tempController" HorizontalAlignment="Left" Margin="768,602,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Controls:tempController.RenderTransform>
+                <CompositeTransform ScaleX="1.3" ScaleY="1.3"/>
+            </Controls:tempController.RenderTransform>
+        </Controls:tempController>
+        <TextBlock x:Name="cpuLbl" HorizontalAlignment="Left" Margin="505,585,0,0" TextWrapping="Wrap" Text="PLC" VerticalAlignment="Top" Height="151" Width="262" Foreground="#FF00788B" FontSize="135" Visibility="Visible"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="10,694,0,0" TextAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Global User Interface" Width="518">
+            <Run Foreground="#FFE6D73E" FontSize="35" Text="Weather:" />
+            <Run x:Name="weatherTempLbl" Text="20°C" FontSize="30" />
+            <Run x:Name="weatherLbl" Text="Sunny" FontSize="30" Foreground="#FF856AFF" />
+        </TextBlock>
+    </Grid>
+</Page>
+

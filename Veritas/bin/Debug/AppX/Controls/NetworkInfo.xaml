@@ -1,0 +1,46 @@
+﻿<UserControl
+    x:Class="Veritas.Controls.NetworkInfo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Veritas.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="214.333" Width="473">
+    
+    <Grid>
+        <TextBlock x:FieldModifier="public" x:Name="RXRecievedSinceLabel" HorizontalAlignment="Left" Margin="40,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="423" FontSize="20" >
+        	<Run Foreground="#FFF3FF00" Text="RX"/>
+        	<Run Text=" received "/>
+        	<Run/>
+        </TextBlock>
+        <TextBlock x:FieldModifier="public" x:Name="lblRXRecieved" HorizontalAlignment="Left" Margin="148,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="241" FontSize="24" RenderTransformOrigin="0.438,0.48">
+        	<Run Text="0" Foreground="#FFF3FF00"  x:Name="RXrecieved"/>
+        	<Run Text=" bytes"/>
+        </TextBlock>
+        <TextBlock x:FieldModifier="public" x:Name="rxLabelRecieved" HorizontalAlignment="Left" Margin="148,65,0,0" TextWrapping="Wrap" Text="Recieved" VerticalAlignment="Top" Height="28" Width="84" Foreground="#FFFF6F44" FontSize="20"/>
+        <TextBlock x:FieldModifier="public" x:Name="rxLabelBytes" HorizontalAlignment="Left" Margin="232,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="254" Foreground="White" FontSize="20">
+        	<Run Text="unknown amount of" Foreground="#FFD8198B"  x:Name="RXbyteIncreasedBy"/>
+        	<Run Text=" "/>
+        	<Run Text="bytes"/>
+        </TextBlock>
+
+        <TextBlock HorizontalAlignment="Left" Margin="40,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="423" FontSize="20" Name="txSentSince" >
+        	<Run Foreground="#FF09C700" Text="TX"/>
+        	<Run Text=" sent "/>
+        	<Run/>
+        </TextBlock>
+
+        <TextBlock x:Name="txSinceStartBytes"  HorizontalAlignment="Left" Margin="148,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="241" FontSize="24" RenderTransformOrigin="0.438,0.48">
+        	<Run Text="0" Foreground="#FF09C700" x:Name="TXrecieved"/>
+        	<Run Text=" bytes"/>
+        </TextBlock>
+        <TextBlock x:Name="txLabelSent" x:FieldModifier="public" HorizontalAlignment="Left" Margin="148,183,0,0" TextWrapping="Wrap" Text="Sent" VerticalAlignment="Top" Height="20" Width="44" Foreground="#FF447FFF" FontSize="22"/>
+        <TextBlock x:Name="txLabelBytes" x:FieldModifier="public" HorizontalAlignment="Left" Margin="197,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="289" Foreground="White" FontSize="20">
+        	<Run Text="unknown amount of" Foreground="#FFD8198B"  x:Name="TXbyteIncreasedBy"/>
+        	<Run Text=" "/>
+        	<Run Text="bytes"/>
+        </TextBlock>
+        
+    </Grid>
+</UserControl>
+

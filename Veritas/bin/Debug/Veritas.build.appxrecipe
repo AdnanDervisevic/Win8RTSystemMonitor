@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-0MCH6LVNEMI</Machine>
+    <WindowsUser>WinRT</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Veritas.exe">
+      <PackagePath>Veritas.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Veritas.pdb">
+      <PackagePath>Veritas.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTDatePicker\bin\Debug\WinRTDatePicker.pdb">
+      <PackagePath>WinRTDatePicker.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.pdb">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\WinRTXamlToolkit.pdb">
+      <PackagePath>WinRTXamlToolkit.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTDatePicker\bin\Debug\WinRTDatePicker.dll">
+      <PackagePath>WinRTDatePicker.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\WinRTXamlToolkit.dll">
+      <PackagePath>WinRTXamlToolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Assets\alert.png">
+      <PackagePath>Assets\alert.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Assets\maps.png">
+      <PackagePath>Assets\maps.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Assets\maps2.png">
+      <PackagePath>Assets\maps2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Assets\off.png">
+      <PackagePath>Assets\off.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Assets\on.png">
+      <PackagePath>Assets\on.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Assets\TimeMachine.png">
+      <PackagePath>Assets\TimeMachine.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Assets\Calendar.ico">
+      <PackagePath>Assets\Calendar.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\Assets\googleMaps.html">
+      <PackagePath>Assets\googleMaps.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Controls\Calendar.xaml">
+      <PackagePath>Controls\Calendar.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Controls\Charts\CpuStaple.xaml">
+      <PackagePath>Controls\Charts\CpuStaple.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Controls\Charts\LineChart.xaml">
+      <PackagePath>Controls\Charts\LineChart.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Controls\Charts\PieChart.xaml">
+      <PackagePath>Controls\Charts\PieChart.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Controls\HeaderControl.xaml">
+      <PackagePath>Controls\HeaderControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Controls\MapsControl.xaml">
+      <PackagePath>Controls\MapsControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Controls\NetworkInfo.xaml">
+      <PackagePath>Controls\NetworkInfo.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Controls\NodeControl.xaml">
+      <PackagePath>Controls\NodeControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Controls\tempController.xaml">
+      <PackagePath>Controls\tempController.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Controls\UptimeControl.xaml">
+      <PackagePath>Controls\UptimeControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Pages\London\LondonHistory.xaml">
+      <PackagePath>Pages\London\LondonHistory.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Pages\London\LondonServer.xaml">
+      <PackagePath>Pages\London\LondonServer.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Pages\PLC\PLC.xaml">
+      <PackagePath>Pages\PLC\PLC.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Pages\PLC\PLCHistory.xaml">
+      <PackagePath>Pages\PLC\PLCHistory.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Pages\TrollhättanRouter\thnRouter.xaml">
+      <PackagePath>Pages\TrollhättanRouter\thnRouter.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Pages\TrollhättanRouter\ThnRouterHistory.xaml">
+      <PackagePath>Pages\TrollhättanRouter\ThnRouterHistory.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Pages\TrollhättanServer\ThnHistory.xaml">
+      <PackagePath>Pages\TrollhättanServer\ThnHistory.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\Pages\TrollhättanServer\thnServer.xaml">
+      <PackagePath>Pages\TrollhättanServer\thnServer.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTDatePicker\bin\Debug\Themes\Generic.xaml">
+      <PackagePath>WinRTDatePicker\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Axis\AxisLabel.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Axis\DateTimeAxisLabel.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Axis\DisplayAxis.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Axis\NumericAxisLabel.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Axis\RangeAxis.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Chart\Chart.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\DataPoint\AreaDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\DataPoint\BarDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\DataPoint\BubbleDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\DataPoint\ColumnDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\DataPoint\LineDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\DataPoint\PieDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\DataPoint\ScatterDataPoint.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Primitives\DelegatingListBox.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Series\AreaSeries.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Series\DataPointSeries.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Series\DefinitionSeries.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Series\LegendItem.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Series\LineSeries.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Charting\Series\PieSeries.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Legend\Legend.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Themes\Generic.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit.Controls.DataVisualization\bin\Debug\Title\Title.xaml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\CameraCaptureControl\CameraCaptureControl.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\CascadingImageControl\CascadingImageControl.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\CascadingTextBlock.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\ColorPicker\ColorPicker.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\CountdownControl.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CountdownControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\CustomAppBar\CustomAppBar.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\DelayedLoadControl\DelayedLoadControl.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\ImageButton\ImageButton.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\ImageToggleButton\ImageToggleButton.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\InputDialog\InputDialog.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\NumericUpDown\NumericUpDown.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\TreeView\TreeViewTouch.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\TreeView\TreeViewMouse.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\TreeView\TreeView.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\TreeView\TreeViewItem.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\WatermarkTextBox\WatermarkTextBox.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\WebBrowser\WebBrowser.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Themes\Generic.xaml">
+      <PackagePath>WinRTXamlToolkit\Themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\WinRTXamlToolkit\bin\Debug\Controls\AnimatingContainer.xaml">
+      <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\WinRT\Desktop\Tobias_DONT_TOUCH\Veritas\Veritas\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

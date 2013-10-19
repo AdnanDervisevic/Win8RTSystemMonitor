@@ -1,0 +1,5 @@
+X:\Dropbox\Veritas\WSI400\Projekt\Program\Veritas\Veritas.csproj;neutral
+X:\Dropbox\Veritas\WSI400\Projekt\Program\WinRTDatePicker\WinRTDatePicker.csproj;neutral
+X:\Dropbox\Veritas\WSI400\Projekt\Program\WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.csproj;neutral
+X:\Dropbox\Veritas\WSI400\Projekt\Program\WinRTXamlToolkit\WinRTXamlToolkit.csproj;neutral
+X:\Dropbox\Veritas\WSI400\Projekt\Program\WinRTXamlToolkit\WinRTXamlToolkit.csproj;neutral
